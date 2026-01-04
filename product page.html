@@ -337,7 +337,7 @@ header.container, main.container, footer.container{position:relative}
 .modal-photo .close{position:absolute;top:18px;right:22px;font-size:32px;color:#fff;cursor:pointer}
 
 /* ===== Footer ===== */
-.footers{margin:44px 0 12px;color:var(--muted);text-align:center;font-size:.9rem;max-width:980px;margin-inline:auto}
+.footers{color:var(--muted);text-align:center;font-size:.9rem; ;margin-inline:auto}
 
 /* ===== Hover-премиум ===== */
 .card:hover,.calc-premium:hover,.alt-card:hover,.gallery:hover,.btn.primary:hover {
@@ -378,6 +378,48 @@ header.container, main.container, footer.container{position:relative}
 @keyframes pulseDot {
   0%, 100% { transform: scale(1); opacity: 1; }
   50% { transform: scale(1.6); opacity: 0.5; }
+}
+.gallery {
+  position: relative;
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+}
+
+.g-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.g-prev { left: 10px; }
+.g-next { right: 10px; }
+
+.thumbs-wrap {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.thumb {
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.thumb.active {
+  border-color: #ff9800;
+}
+
+.thumb img {
+  width: 70px;
 }
 
 </style>
@@ -576,12 +618,12 @@ header.container, main.container, footer.container{position:relative}
           <div class="sticker">ХИТ ПРОДАЖ!</div>
           <button class="g-nav g-prev" id="gPrev" aria-label="Предыдущее фото">❮</button>
           <button class="g-nav g-next" id="gNext" aria-label="Следующее фото">❯</button>
-          <img src="GRUNDFOS.jpeg" alt="Grundfos SQ 1-35" id="mainImg">
+          <img src="" alt="Grundfos SQ 1-35" id="mainImg">
         </div>
         <!-- Миниатюры -->
         <div class="thumbs-wrap" id="thumbRow">
-          <div class="thumb active"><img src="GRUNDFOS.jpeg" alt="Фото 1"></div>
-          <div class="thumb"><img src="GRUNDFOS(2).jpg" alt="Фото 2"></div>
+          <div class="thumb active"><img src="https://shop.olimp-aqua.ru/image/cache/data/nasosy/Pedrollo/Pedrollo_4SR-500x500.jpg" alt="Фото 1"></div>
+          <div class="thumb"><img src="https://shop.olimp-aqua.ru/image/cache/data/nasosy/Pedrollo/Pedrollo_4SR-500x500.jpg" alt="Фото 2"></div>
         </div>
 
       </div>
@@ -823,7 +865,7 @@ header.container, main.container, footer.container{position:relative}
         </div>
       </div>
     </footer>
-  <footer class="container footers">
+  <footer class=" footers">
     © Интернет-магазин насосного оборудования — продажа насосов и комплектующих для систем водоснабжения и обустройства скважин, а также услуги по монтажу, обслуживанию водонапорных башен и ёмкостей, бурению скважин.
   </footer>
 
