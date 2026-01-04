@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Title</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="head_top">
+        <div class="container">
+          <div class="head_top-info">
+            <div class="head_contact">
+              <a href="tel:+74997556687">
+                <img src="img/phone.svg" alt="Phone icon" loading="lazy">
+                +7(499)755-66-87
+              </a>
+              <a href="tel:+79055799233">
+                <img src="img/whatsapp.svg" alt="Whatsapp icon" loading="lazy">
+                +7(905)579-92-33
+              </a>
+              <a href="mailto:shop@olimp-aqua">
+                <img src="img/email.svg" alt="Em,ail icon" loading="lazy">
+                shop@olimp-aqua
+              </a>
+            </div>
+            <span class="head_clock">
+              <img src="img/clock.svg" alt="Clock icon" loading="lazy">
+              09:00 - 18:00
+            </span>
+            <div class="head_tab">
+              <a href="#!"><img src="img/search.svg" alt=""></a>
+              <button class="basketOpen"><img src="img/basket.svg" alt=""></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="head_bottom">
+        <div class="container">
+          <div class="head_wrap">
+            <a href="index.html" class="head_logo"><img src="img/logo.svg" alt="Logo" loading="lazy"></a>
+
+            <div class="head_navs">
+              <div class="head_nav">
+                <a href="index.html">Главная</a>
+                <div class="nav_item catalog_btn">
+                  <a href="#">Каталог ▾</a>
+
+                  <!-- MAIN DROPDOWN -->
+                  <div class="catalog_dropdown">
+                    <div class="catalog_sidebar">
+                      <button class="tab_btn active" data-tab="category">Категории</button>
+                      <button class="tab_btn" data-tab="brands">Бренды</button>
+                    </div>
+
+                    <div class="catalog_content">
+                      <!-- Category list -->
+                      <div class="tab_content active" id="category">
+                        <a href="#!">Насосы</a>
+                        <a href="#!">Котлы</a>
+                        <a href="#!">Бойлеры</a>
+                        <a href="#!">Оборудование</a>
+                        <a href="#!">Запчасти</a>
+                        <a href="#!">Аксессуары</a>
+                        <a href="#!">Баки отопления</a>
+                        <a href="#!">Вакуумное оборудование</a>
+                        <a href="#!">Септики (ревизионные колодцы)</a>
+                        <a href="#!">Фильтры для воды</a>
+                        <a href="#!">Консольные насосы</a>
+                        <a href="#!">Колодезные насосы</a>
+                        <a href="#!">Промышленные насосы</a>
+                        <a href="#!">Поверхностные насосы</a>
+                        <a href="#!">Фекальные и дренажные насосы</a>
+                        <a href="#!">Центробежные насосы</a>
+                        <a href="#!">Многоступенчатые насосы</a>
+                        <a href="#!">Вихревые насосы</a>
+                        <a href="#!">Циркуляционные насосы</a>
+                        <a href="#!">Самовсасывающие насосы</a>
+                        <a href="#!">Скважинные насосы</a>
+                        <a href="#!">Канализационные насосные установки</a>
+                        <a href="#!">Автоматика для насосов</a>
+                        <a href="#!">Насосные станции</a>
+                        <a href="#!">Комплектующие для насосов</a>
+                        <a href="#!">Гидроаккумуляторы</a>
+                        <a href="#!">Дозирование</a>
+                        <a href="#!">Кабель и провод</a>
+                        <a href="#!">Кессоны</a>
+                        <a href="#!">Преобразователи частоты</a>
+                        <a href="#!">Радиаторы</a>
+                        <a href="#!">Счётчики воды</a>
+                        <a href="#!">Трубопроводная арматура</a>
+                        <a href="#!">Трубы</a>
+                      </div>
+                      <!-- Brands list -->
+                      <div class="tab_content" id="brands">
+                        <a href="#!">Buderus</a>
+                        <a href="#!">Coelbo</a>
+                        <a href="#!">DAB</a>
+                        <a href="#!">DEBE</a>
+                        <a href="#!">DYU</a>
+                        <a href="#!">Grundfos</a>
+                        <a href="#!">IBO</a>
+                        <a href="#!">IRCEM</a>
+                        <a href="#!">Panelli</a>
+                        <a href="#!">Pedrollo</a>
+                        <a href="#!">Reflex</a>
+                        <a href="#!">Speroni</a>
+                        <a href="#!">SUMOTO</a>
+                        <a href="#!">Vaillant</a>
+                        <a href="#!">VODOS</a>
+                        <a href="#!">Waterstry</a>
+                        <a href="#!">Weka</a>
+                        <a href="#!">Wester</a>
+                        <a href="#!">Willo</a>
+                        <a href="#!">Аквасток</a>
+                        <a href="#!">Беламос</a>
+                        <a href="#!">ГМС Ливнынасос</a>
+                        <a href="#!">Джилекс</a>
+                        <a href="#!">ТИТАН</a>
+                        <a href="#!">ЭКОБАТ</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <a href="about.html">О нас</a>
+                <a href="delevery.html" class="active">Доставка и оплата</a>
+                <a href="pumps.html">Сервисная служба</a>
+                <a href="contact.html">Контакты</a>
+                <a href="contractors.html">Для контрагентов</a>
+              </div>
+              <div class="head_tab">
+                <a href="search.html"><img src="img/search.svg" alt=""></a>
+                <button class="basketOpen"><img src="img/basket.svg" alt=""></button>
+              </div>
+              <button class="burger_tab">
+                <img src="img/burger.svg" alt="" class="menu_icon">
+                <div class="close_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="25" viewBox="0 0 50 50">
+                    <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z" fill="#133379"></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="basket_modal">
+          <div class="basket_boxs">
+            <div class="box">
+              <a href="#!" class="box_img"><img src="img/basket-img.png" alt=""></a>
+              <a href="#!" class="box_title">Погружной скважинный насос GRUNDFOS SQ 3-105</a>
+              <div class="basket_calc">
+                <button class="minus">-</button>
+                  <span class="num">1</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="basket_total">
+            <div class="item">
+              <b>Сумма:</b>
+              <span>120 000 р.</span>
+            </div>
+            <div class="item">
+              <b>Итого:</b>
+              <span>120 000 р.</span>
+            </div>
+          </div>
+          <div class="basket_modal-btns">
+            <a href="basket.html">Просмотр корзины</a>
+            <a href="#!">Оформление заказа</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="head_menu">
+        <div class="head_nav">
+          <a href="index.html">Главная</a>
+          <a href="basket.html">Каталог</a>
+          <a href="about.html">О нас</a>
+          <a href="delevery.html" class="active">Доставка и оплата</a>
+          <a href="pumps.html">Сервисная служба</a>
+          <a href="contact.html">Контакты</a>
+          <a href="contractors.html">Для контрагентов</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="main_home delevery_home">
+        <div class="container">
+          <div class="main_content">
+            <h2>ДОСТАВКА И ОПЛАТА</h2>
+            <div class="breadcrumbs">
+              <a href="#!">Главная</a>
+              <img src="img/arrow-right.svg" alt="">
+              <span>Доставка и оплата</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="delevery">
+        <div class="container">
+          <div class="delevery_content">
+            <p class="delevery_content-text">Одним из важнейших пунктов любой коммерческой сделки является доставка и оплата приобретённого товара. Многие продавцы не уделяют этой части сотрудничества должного внимания, предпочитая использовать устоявшиеся шаблоны. Мы же не привыкли упускать деталей, именно поэтому проработали данный пункт во всех мелочах.</p>
+            <div class="delevery_content-items">
+              <div class="item">
+                <b>ДОСТАВКА ПО МОСКВЕ И МО</b>
+                <div class="item_info">
+                  <img src="img/delevery-icon1.svg" alt="">
+                  <div class="item_info-texts">
+                    <ul>
+                      <p>Мы доставляем товары по Москве и Московской области собственным транспортом.</p>
+                      <li>Стоимость доставки по Москве в пределах МКАД - от 500 руб.</li>
+                      <li>За МКАД стоимость доставки рассчитывается по схеме - от 500 руб + 45 руб/км.</li>
+                    </ul>
+                    <p class="text red">!!! Минимальная сумма заказа в нашем магазине - 3000 руб. При сумме заказа от 50 000 требуется предоплата.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item item2">
+                <b>ДОСТАВКА ПО РОССИИ ТРАНСПОРТНЫМИ КОМПАНИЯМИ</b>
+                <div class="item_info">
+                  <img src="img/delevery-icon2.svg" alt="">
+                  <div class="item_info-texts">
+                    <ul>
+                      <p>
+                        Срок доставки в среднем 2-4 рабочих дня. <br>
+                        Наш интернет - магазин «Олимп-Аква Shop» работает с такими транспортными компаниями как: ПЭК, СДЭК и др. <br>
+                        Доставка рассчитывается по тарифам транспортных компаний
+                      </p>
+                    </ul>
+                    <p class="text blue">Доставка в регионы осуществляется только после оплаты товара.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <b>САМОВЫВОЗ ИЗ МАГАЗИНА</b>
+                <div class="item_info">
+                  <img src="img/delevery-icon3.svg" alt="">
+                  <div class="item_info-texts">
+                    <ul>
+                      <p>
+                        Стоимость самовывоза - Бесплатно <br>
+                        Самовывоз осуществляется по адресу: Москва, МКАД, 41-й километр, 4с30, строительный рынок «Мельница», павильон B 6/7.
+                      </p>  
+                    </ul>
+                    <a target="_blank" href="https://yandex.com.ge/profile/188396175648?lang=ru&no-distribution=1&view-state=mini&source=wizbiz_new_map_single&ysclid=mifp15u90143901150" class="text red">Посмотреть на карте >>></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="question">
+        <div class="container">
+          <div class="question_content">
+            <h2>ВОПРОС - ОТВЕТ</h2>
+            <div class="texts">
+              <h2>Если я заказываю услугу монтаж скважины, нужно ли мне платить за доставку оборудования?</h2>
+              <p>
+                Нет! Если объект, на котором будут производиться работы, располагается в пределах Московской области, доставка насосного оборудования с нашей стороны производится абсолютно бесплатно. Для сопряжённых территорий момент доставки обсуждается отдельно, и в 90% случаев наши транспортные расходы также не входят в стоимость услуги монтажа. <br>
+                И самое главное! Всем, кто заказывает обустройство скважины, мы предлагаем приятную скидку на покупку насоса, так что при сотрудничестве с «Олимп-Аква Shop» можно смело рассчитывать на двойную выгоду.
+              </p>
+            </div>
+            <div class="texts">
+              <h2>Могу ли я заказать услугу по монтажу, чистке, ремонту источника, если объект находится за пределами Московской области?</h2>
+              <p>Да, но только если скважина располагается на территории граничащих с московским регионом областей.</p>
+            </div>
+            <div class="texts">
+              <h2>О чем вам не стоит беспокоиться?</h2>
+              <ul>
+                <li>О качестве транспортировки.</li>
+                <li>Об оперативности доставки оборудования на объект.</li>
+                <li>О своевременности. Мы всегда подстраиваемся под распорядок дня клиента, учитываем любые пожелания.</li>
+              </ul>
+            </div>
+            <div class="box">
+              <p>ОЛИМП АКВА SHOP - ПРОФЕССИОНАЛИЗМ СОКРЫТ В МЕЛОЧАХ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="contact_content">
+            <div class="contact_info">
+              <h2>КОНТАКТЫ</h2>
+              <div class="contact_links">
+                <a href="tel:+79055799233">
+                  <img src="img/phone.svg" alt="">
+                  +7 905 579 92 33, +7(499)755 66 87
+                </a>
+                <a href="#!">
+                  <img src="img/clock.svg" alt="">
+                  09:00 - 18:00
+                </a>
+                <a href="mailto:shop@olimp-aqua">
+                  <img src="img/email.svg" alt="">
+                  shop@olimp-aqua
+                </a>
+                <a target="_blank" href="https://yandex.com.ge/profile/188396175648?lang=ru&no-distribution=1&view-state=mini&source=wizbiz_new_map_single&ysclid=mifp15u90143901150">
+                  <img src="img/location.svg" alt="">
+                  Москва, МКАД, 41-й километр, 4с30, строительный рынок «Мельница», павильон B 6/7.8
+                </a>
+              </div>
+              <p>
+                Одним из важнейших пунктов любой коммерческой сделки является доставка и оплата приобретённого товара.
+                Многие продавцы не уделяют этой части сотрудничества должного внимания, предпочитая использовать
+                устоявшиеся шаблоны. Мы же не привыкли упускать деталей, именно поэтому проработали данный пункт во всех
+                мелочах.
+              </p>
+            </div>
+
+            <div class="contact_map">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4710c51cb6f297137570a50a276f4252d399004de019493e35e4043804382cc4&amp;source=constructor" width="100%" height="454" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="ftr_navs">
+          <div class="ftr_nav">
+            <b>ЛИЧНЫЙ КАБИНЕТ</b>
+            <ul>
+              <li><a href="#!">Личный кабинет</a></li>
+              <li><a href="#!">История заказоа</a></li>
+              <li><a href="#!">Закладки</a></li>
+              <li><a href="#!">Возврат товара</a></li>
+              <li><a href="#!">Рассылка</a></li>
+            </ul>
+          </div>
+          <div class="ftr_nav">
+            <b>ИНФОРМАЦИЯ</b>
+            <ul>
+              <li><a href="#!">О нас</a></li>
+              <li><a href="#!">Доставка и оплата насосов и доп оборудования</a></li>
+              <li><a href="#!">Условия использования сайта</a></li>
+              <li><a href="#!">Политика конфиденциальности</a></li>
+              <li><a href="#!">Публичная оферта</a></li>
+              <li><a href="#!">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="ftr_nav">
+            <b>ДОПОЛНИТЕЛЬНО</b>
+            <ul>
+              <li><a href="#!">Производители</a></li>
+              <li><a href="#!">Подарочные сертификаты</a></li>
+              <li><a href="#!">Партнёрская программа</a></li>
+              <li><a href="#!">Карта сайта</a></li>
+              <li><a href="#!">Акции</a></li>
+            </ul>
+          </div>
+          <div class="ftr_nav">
+            <b>КОНТАКТЫ</b>
+            <div class="ftr_contact">
+              <a href="tel:+79055799233">
+                <img src="img/phone.svg" alt="">
+                +7 905 579 92 33, +7(499)755 66 87
+              </a>
+              <a href="#!">
+                <img src="img/clock.svg" alt="">
+                09:00 - 18:00
+              </a>
+              <a href="mailto:shop@olimp-aqua">
+                <img src="img/email.svg" alt="">
+                shop@olimp-aqua
+              </a>
+              <a target="_blank" href="https://yandex.com.ge/profile/188396175648?lang=ru&no-distribution=1&view-state=mini&source=wizbiz_new_map_single&ysclid=mifp15u90143901150">
+                <img src="img/location.svg" alt="">
+                Москва, МКАД, 41-й километр, 4с30, строительный рынок «Мельница», павильон B 6/7.8
+              </a>
+            </div>
+            <img src="img/rating.png" alt="" class="ftr_rating">
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copright_wrap">
+            <p>Интернет-магазин «Олимп-Аква Шоп» 2025 </p>
+            <p>© Интернет-магазин насосного оборудования — продажа насосов и комплектующих для систем водоснабжения и
+              обустройства скважин, а также услуги по монтажу, обслуживанию водонапорных башен и ёмкостей, бурению
+              скважин.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
